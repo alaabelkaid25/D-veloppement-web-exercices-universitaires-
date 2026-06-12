@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table {
+            width: 400px; 
+            border-collapse: separate; 
+            border-spacing: 2px; 
+            border: 1px solid;
+        }
+        td {
+            border: 1px solid;
+            width: 50%;
+            vertical-align: top;
+        }
+        .outside {list-style-position: outside;}
+        .inside {list-style-position: inside;}
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td> 
+                <ul class="outside">
+                    <li>Premier item de la liste qui doit tenir sur plusieurs lignes pour bien montrer outside</li>
+                    <li>Second item de la liste qui doit tenir sur plusieurs lignes pour bien montrer outside.</li>
+                </ul>
+            </td>
+            <td>
+                <ul class="inside">
+                    <li>Premier item de la liste qui doit tenir sur plusieurs lignes pour bien montrer inside</li>
+                    <li>Second item de la liste qui doit tenir sur plusieurs lignes pour bien montrer inside.</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

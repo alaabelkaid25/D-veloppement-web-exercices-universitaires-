@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <title>Etat civil</title>
+</head>
+<body>
+    <h1>Etat civil</h1>
+    <p>Les rubriques indiquées par * sont obligatoires.</p>
+    <form method="POST">
+        <table border="0">
+            <tr>
+                <td>*Civilité :</td>
+                <td>
+                    <select name="civilité">
+                        <option>Mademoiselle</option>
+                        <option>Madame</option>
+                        <option>Monsieur</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>*Nom :</td>
+                <td><input type="text" name="nom" required></td>
+            </tr>
+            <tr>
+                <td>*Prénom :</td>
+                <td><input type="text" name="prenom" required></td>
+            </tr>
+            <tr>
+                <td>*Date de naissance :</td>
+                <td>
+                    <input type="text" name="jour" size="2">
+                    <input type="text" name="mois" size="2">
+                    <input type="text" name="annee" size="4">
+                </td>
+            </tr>
+            <tr>
+                <td>*Nationalité :</td>
+                <td><input type="text" name="nationalite" required></td>
+            </tr>
+            <tr>
+                <td>*Adresse :</td>
+                <td><input type="text" name="adresse" size="50" required></td>
+            </tr>
+            <tr>
+                <td>*Code Postal :</td>
+                <td><input type="text" name="cp" size="10" required></td>
+            </tr>
+            <tr>
+                <td>*Ville :</td>
+                <td><input type="text" name="ville" required></td>
+            </tr>
+            <tr>
+                <td>*Pays :</td>
+                <td>
+                    <input type="radio" name="pays" value="Maroc"> Maroc
+                    <input type="radio" name="pays" value="Autre"> Autre
+                    <input type="text" name="autre_pays">
+                </td>
+            </tr>
+            <tr>
+                <td>*Tél. portable :</td>
+                <td><input type="text" name="tel" required></td>
+            </tr>
+            <tr>
+                <td>*E-mail :</td>
+                <td><input type="text" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Ajouter votre photo :</td>
+                <td><input type="file" name="photo"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <br>
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Annuler">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

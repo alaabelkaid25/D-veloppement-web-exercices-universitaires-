@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon CV</title>
+    <style>
+
+        body {
+            background-color: silver;
+            color: black;;
+        }
+        .cv-container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border: 1px solid gray;
+        }
+        .cv-header {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .header-text {
+            width: 70%;
+            float: left;
+        }
+        .header-photo {
+            width: 30%;
+            float: right;
+            text-align: right;
+        }
+        .header-photo img {
+            width: 120px;
+            height: 120px;
+            border: 2px solid teal;
+        }
+        .clear {
+            clear: both;
+        }
+        h1 {
+            font-size: 32px;
+            color: black;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: teal;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            list-style-type: none;
+        }
+        .contact-info li {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .separator {
+            border: 0;
+            height: 1px;
+            background-color: gray;
+            margin: 20px 0;
+        }
+        .cv-section {
+            margin-bottom: 25px;
+        }
+        .cv-section h2 {
+            font-size: 20px;
+            color: black;
+            border-bottom: 2px solid teal;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+        .date {
+            font-weight: bold;
+            color: teal;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .details h3 {
+            font-size: 16px;
+            color: black;
+            margin-bottom: 5px;
+        }
+        .details p {
+            font-size: 14px;
+            color: gray;
+            margin-bottom: 5px;
+        }
+        .details ul {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        .hobbies-list {
+            margin-left: 20px;
+        }
+        .hobbies-list li {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <header class="cv-header">
+            <div class="header-text">
+                <h1>Belkaid Alaa</h1>
+                <p class="subtitle">Etudiante en Informatique</p>
+                <ul class="contact-info">
+                    <li><strong>Email :</strong> alaa.belkaid25@ump.ac.ma</li>
+                    <li><strong>Tél :</strong> +212 772 177 433</li>
+                    <li><strong>Adresse :</strong> Casablanca, Maroc</li>
+                </ul>
+            </div>
+            <div class="header-photo">
+                <img src="me.png" alt="Photo de profil">
+            </div>
+            <div class="clear"></div>
+        </header>
+        <hr class="separator">
+        <main class="cv-content"> 
+            <section class="cv-section">
+                <h2>Cursus Scolaire</h2>
+                <div class="item">
+                    <p class="date">2025 - Présent</p>
+                    <div class="details">
+                        <h3>1ère Année DUT conception et developpement de logiciels</h3>
+                        <p>Ecole Supérieure de Technologie (EST) - Oujda</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="date">2024 - 2025</p>
+                    <div class="details">
+                        <h3>Baccalauréat Sciences Physique Chimie</h3>
+                        <p>La compétence scientifique - Casablanca</p>
+                    </div>
+                </div>
+            </section>
+            <section class="cv-section">
+                <h2>Expérience Professionnelle</h2>
+                <div class="item">
+                    <p class="date">2025</p>
+                    <div class="details">
+                        <h3>Projets universitaires</h3>
+                        <p>Ecole Supérieure de Technologie - Oujda</p>
+                        <ul>
+                            <li>Création de logiciels, pages web, bases de données lors de travaux dirigés</li>
+                            <li>HTML, CSS, SQL, C.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="cv-section">
+                <h2>Loisirs & Intérêts</h2>
+                <ul class="hobbies-list">
+                    <li><strong>Jeux vidéo :</strong> Jeux de stratégie et d'optimisation mécanique.</li>
+                    <li><strong>Lecture :</strong> Récits psychologiques et thrillers de survie.</li>
+                    <li><strong>Culture :</strong> Recherche sur les différentes cultures et religions tout en les respectant.</li>
+                    <li><strong>Création numérique :</strong> Gestion et design de communautés en ligne.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

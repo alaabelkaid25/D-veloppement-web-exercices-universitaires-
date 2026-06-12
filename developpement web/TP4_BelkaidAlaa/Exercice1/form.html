@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Coordonnées :</legend>
+            Nom : <input type="text" name="nom"><br>
+            Prénom : <input type="text" name="prenom"><br>
+            Adresse : <input type="text" name="adresse"><br>
+            CP : <input type="text" name="cp" size="5">
+            Ville : <input type="text" name="ville"><br>
+            Pays : <input type="text" name="pays"><br>
+            Email : <input type="text" name="email">
+        </fieldset>
+        <fieldset>
+            <legend>Connexion :</legend>
+            <input type="radio" name="connexion" value="modem"> Modem<br>
+            <input type="radio" name="connexion" value="adsl"> ADSL<br>
+            <input type="radio" name="connexion" value="cable"> Câble
+        </fieldset>
+        <fieldset>
+            <legend>Commentaire :</legend>
+            <textarea name="commentaire" rows="5" cols="30"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Effacer">
+    </form>
+</body>
+</html>
